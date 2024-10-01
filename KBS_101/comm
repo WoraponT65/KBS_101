@@ -1,0 +1,4 @@
+kubectl apply -f .\sample-pod.yml
+kubectl get all
+kubectl delete pod client-pod
+kubectl logs client-pod
